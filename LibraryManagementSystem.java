@@ -1,8 +1,5 @@
 import java.util.*;
 
-// ─────────────────────────────────────────
-// CUSTOM EXCEPTIONS
-// ─────────────────────────────────────────
 
 class BookNotFoundException extends Exception {
     public BookNotFoundException(String msg) { super(msg); }
@@ -20,18 +17,14 @@ class StudentNotFoundException extends Exception {
     public StudentNotFoundException(String msg) { super(msg); }
 }
 
-// ─────────────────────────────────────────
-// INTERFACE (Abstraction)
-// ─────────────────────────────────────────
+
+
 
 interface LibraryOperations {
     void issueBook(int studentId, int bookId) throws Exception;
     void returnBook(int studentId, int bookId) throws Exception;
 }
 
-// ─────────────────────────────────────────
-// ABSTRACT PARENT CLASS (Inheritance)
-// ─────────────────────────────────────────
 
 abstract class Person {
     private int id;       // Encapsulation
@@ -48,9 +41,8 @@ abstract class Person {
     public abstract void displayDetails(); // Polymorphism
 }
 
-// ─────────────────────────────────────────
-// BOOK CLASS
-// ─────────────────────────────────────────
+
+
 
 class Book {
     private int bookId;           // Encapsulation
@@ -77,9 +69,8 @@ class Book {
     }
 }
 
-// ─────────────────────────────────────────
-// STUDENT CLASS (extends Person)
-// ─────────────────────────────────────────
+
+
 
 class Student extends Person {
     private String department;             // Encapsulation
@@ -123,9 +114,8 @@ class Student extends Person {
     }
 }
 
-// ─────────────────────────────────────────
-// LIBRARIAN CLASS (extends Person)
-// ─────────────────────────────────────────
+
+
 
 class Librarian extends Person {
     private String employeeCode;           // Encapsulation
@@ -144,9 +134,8 @@ class Librarian extends Person {
     }
 }
 
-// ─────────────────────────────────────────
-// LIBRARY CLASS (implements LibraryOperations)
-// ─────────────────────────────────────────
+
+
 
 class Library implements LibraryOperations {
     private List<Book>    books    = new ArrayList<>();
@@ -215,9 +204,9 @@ class Library implements LibraryOperations {
     }
 }
 
-// ─────────────────────────────────────────
-// MAIN CLASS
-// ─────────────────────────────────────────
+
+
+
 
 public class LibraryManagementSystem {
 
