@@ -94,22 +94,27 @@ java Main
 
 ADD BOOK
 <img width="1471" height="650" alt="Screenshot 2026-05-26 153550" src="https://github.com/user-attachments/assets/8ffa2fe4-8ea4-4850-9adc-3142df204ef7" />
+
 ---
 
 ADD STUDENT
 <img width="1471" height="650" alt="Screenshot 2026-05-26 153550" src="https://github.com/user-attachments/assets/c9a8a2ee-02e0-4907-82dc-3cc0a7425444" />
+
 ---
 
 ISSUE BOOK
 <img width="716" height="323" alt="Screenshot 2026-05-26 154350" src="https://github.com/user-attachments/assets/4af0f200-c535-418c-a0d4-481fdd7c920e" />
+
 ---
 
 RETURN BOOK
 <img width="661" height="313" alt="Screenshot 2026-05-26 154422" src="https://github.com/user-attachments/assets/0358b089-4197-4c6d-8ca4-96f744932d3a" />
+
 ---
 
 VIEW STUDENTS DETAILS
 <img width="810" height="474" alt="Screenshot 2026-05-26 154446" src="https://github.com/user-attachments/assets/146dbf00-8cb3-4500-afef-d0bf0884d0b0" />
+
 ---
 
 
